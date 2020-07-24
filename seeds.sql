@@ -1,16 +1,23 @@
-INSERT INTO teachers (first_name, last_name, email, password, createdAt, updatedAt) VALUES ("Vince", "Gubitosi", "vince@email.com", "password1", "2020-07-20 00:00:00", "2020-07-20 00:00:00");
+INSERT INTO teachers (first_name, last_name, email, password, createdAt, updatedAt) 
+VALUES ("Vince", "Gubitosi", "Sorenson@email.com", "password", "2020-07-20 00:00:00", "2020-07-20 00:00:00"),
+VALUES ("Vince", "Gubitosi", "cheveauxdelin@email.com", "password", "2020-07-20 00:00:00", "2020-07-20 00:00:00");
+
 
 INSERT INTO students (first_name, last_name, teacherId, createdAt, updatedAt) 
-VALUES ("Studenthy", "Studentson", 1, "2020-07-20 00:00:00", "2020-07-20 00:00:00"),
-("Andrew", "Kleiner", 1, "2020-07-20 00:00:00", "2020-07-20 00:00:00"),
-("Tim", "Winters", 1, "2020-07-20 00:00:00", "2020-07-20 00:00:00"),
-("Esther", "Min", 1, "2020-07-20 00:00:00", "2020-07-20 00:00:00");
+VALUES ("Ronald", "McDonald", 1, "2020-07-20 00:00:00", "2020-07-20 00:00:00"),
+("Walter", "Grimace", 1, "2020-07-20 00:00:00", "2020-07-20 00:00:00"),
+("Fry", "McKid", 1, "2020-07-20 00:00:00", "2020-07-20 00:00:00"),
+("Mayor", "McCheese", 1, "2020-07-20 00:00:00", "2020-07-20 00:00:00"),
+("John", "Hamburgler", 2, "2020-07-20 00:00:00", "2020-07-20 00:00:00"),
+("Birdie", "Earlybird", 2, "2020-07-20 00:00:00", "2020-07-20 00:00:00"),
+("Officer", "BigMac", 2, "2020-07-20 00:00:00", "2020-07-20 00:00:00"),
+("Burger", "King", 2, "2020-07-20 00:00:00", "2020-07-20 00:00:00");
  
 INSERT INTO assignments (title, description, assignment_date, due_date, subject, createdAt, updatedAt) 
-VALUES ("Assignment 1", "This is the first assignment of the year!", "2020-07-20", "0000-01-01", "Math", "2020-07-20 00:00:00", "2020-07-20 00:00:00"),
-("Assignment 2", "This is the second assignment of the year!", "2020-07-20", "0000-01-01", "English", "2020-07-20 00:00:00", "2020-07-20 00:00:00"),
-("Assignment 3", "This is the third assignment of the year!", "2020-07-20", "0000-01-01", "Science", "2020-07-20 00:00:00", "2020-07-20 00:00:00"),
-("Assignment 4", "This is the fourth assignment of the year!", "2020-07-20", "0000-01-01", "Math", "2020-07-20 00:00:00", "2020-07-20 00:00:00");
+VALUES ("Code Quiz", "Create a quiz that tests your knowledge on JavaScript", "2020-07-20", "0000-01-01", "JavaScript", "2020-07-20 00:00:00", "2020-07-20 00:00:00"),
+("Work Day Scheduler", "Create and app that lets you track your tasks for the day", "2020-07-20", "0000-01-01", "JavaScript", "2020-07-20 00:00:00", "2020-07-20 00:00:00"),
+("Password Generator", "Write an app that generates a random password", "2020-07-20", "0000-01-01", "JavaScript", "2020-07-20 00:00:00", "2020-07-20 00:00:00"),
+("Note-Taker", "Create a series of prompts that takes notes", "2020-07-20", "0000-01-01", "NodeJS", "2020-07-20 00:00:00", "2020-07-20 00:00:00");
 
 INSERT INTO grades (gradeVal, createdAt, updatedAt, AssignmentId, StudentId) 
 VALUES (95, "2020-07-20 00:00:00", "2020-07-20 00:00:00", 1, 1),
@@ -45,6 +52,5 @@ VALUES (95, "2020-07-20 00:00:00", "2020-07-20 00:00:00", 1, 1),
 (85, "2020-07-20 00:00:00", "2020-07-20 00:00:00", 2, 8),
 (96, "2020-07-20 00:00:00", "2020-07-20 00:00:00", 3, 8),
 (79, "2020-07-20 00:00:00", "2020-07-20 00:00:00", 4, 8);
-
 
 

@@ -28,7 +28,15 @@
   If you'd like to see PassportJS in action, you can use this second test login: 
     
     >email:cheveauxdelin@email.com  password: password
+  Seeds are can be found below: 
 
+  -Keep in mind that using seeds to generate teacher accounts will cause a problem with the hasher.
+
+  -Either use the script found in seeds.js to resolve this, or make an account via running the application
+    
+    /seeds.sql
+
+  
   ## Images
 
   ### LogIn
