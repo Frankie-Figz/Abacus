@@ -10,6 +10,7 @@
   *  [Contributors](#Contributors)
   *  [License](#License)
   *  [Contributing](#Contributing)
+  *  [Future Developments](#Future-Developments)
   *  [Tests](#Tests)
   *  [Questions](#Questions)
   ## Installation
@@ -19,6 +20,14 @@
 
   ## Usage
   To run locally, use npm start from the command line. Or follow the link below to the deployed app on heroku.
+
+  A Test login available for use is: 
+    
+    >email: Sorenson@email.com password: password
+
+  If you'd like to see PassportJS in action, you can use this second test login: 
+    
+    >email:cheveauxdelin@email.com  password: password
 
   ## Images
 
@@ -36,9 +45,9 @@
 
   # Links
 
-  1. [Link to Deployed Application](https://github.com/akleiner26/Abacus)
+  1. [Link to Deployed Application](https://github.com/erasersleeve/Abacus)
 
-  2. [Link to Github Repository](https://a-bacus-app.herokuapp.com/)
+  2. [Link to Github Repository](https://github.com/erasersleeve/Abacus)
 
   # Contributors
 
@@ -54,6 +63,11 @@
   None
   ## Contributing
   To make contributions or queries please contact us via github.
+  ## Future-Developments
+  - Ability to add and update grades
+  - Ability to update and delete students
+  - Student progress page with graph displays 
+  - Student portal login to view their own grades and upcoming assignments
   ## Tests
   To run tests, run the following command:
     
